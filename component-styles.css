@@ -1,0 +1,63 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  /* Style the table header */
+  th {
+    background-color: #f2f2f2;
+  }
+
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .image1 img {
+    max-width: 50%;
+    height: auto;
+  }
+  
+  .center {
+    text-align: center;
+  }
+  
+  .top-left {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: lightblue;
+    padding: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  
+  .date {
+    margin: 0;
+    font-size: 14px;
+  }
+  
+  .fact-container {
+    text-align: center;
+    font-size: 16px;
+  }
+
+  @media (max-width: 768px) {
+    #kakapo-statement {
+        font-size: 14px;
+    }
+  }
+
+  @media (max-width: 480px) {
+    #kakapo-statement {
+        font-size: 12px;
+    }
+  }
